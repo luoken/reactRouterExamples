@@ -7,6 +7,9 @@ var AuthExample = require('./examples/AuthExample');
 var CustomLinkExample = require('./examples/CustomLinkExample');
 var PreventingTransitionsExample = require('./examples/PreventingTransitionsExample');
 var NoMatchExample = require('./examples/NoMatchExample');
+var RecursiveExample = require('./examples/RecursiveExample');
+var Sidebar = require('./examples/Sidebar');
+var AnimationExample = require('./examples/AnimationExample');
 
 class App extends React.Component {
   render() {
@@ -57,6 +60,23 @@ class App extends React.Component {
             <NoMatchExample />
           </p>
 
+          <br/>
+          {/*<p>
+            <h3>Begin RecursiveExample</h3>
+            <RecursiveExample />
+          </p>*/}
+
+          <br/>
+          <p>
+            <h3>Begin SidebarExample</h3>
+            <Sidebar/>
+          </p>
+
+          <br/>
+          {/*<p>
+            <h3>Begin AnimatedTransitionExample</h3>
+            <AnimationExample className='animation'/>
+          </p>*/}
         </div>
       </div>
 

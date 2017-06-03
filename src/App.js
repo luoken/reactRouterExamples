@@ -10,6 +10,7 @@ var NoMatchExample = require('./examples/NoMatchExample');
 var RecursiveExample = require('./examples/RecursiveExample');
 var Sidebar = require('./examples/Sidebar');
 var AnimationExample = require('./examples/AnimationExample');
+var AmbiguousExample = require('./examples/AmbiguousExample');
 
 class App extends React.Component {
   render() {
@@ -77,6 +78,12 @@ class App extends React.Component {
             <h3>Begin AnimatedTransitionExample</h3>
             <AnimationExample className='animation'/>
           </p>*/}
+          <br/>
+          <p>
+            <h3>Begin AmbiguousExample</h3>
+            <AmbiguousExample/>
+          </p>
+
         </div>
       </div>
 

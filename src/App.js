@@ -11,6 +11,8 @@ var RecursiveExample = require('./examples/RecursiveExample');
 var Sidebar = require('./examples/Sidebar');
 var AnimationExample = require('./examples/AnimationExample');
 var AmbiguousExample = require('./examples/AmbiguousExample');
+var RouteConfigExample = require('./examples/RouteConfigExample');
+var ModalGallery = require('./examples/ModalGallery');
 
 class App extends React.Component {
   render() {
@@ -61,27 +63,39 @@ class App extends React.Component {
             <NoMatchExample />
           </p>
 
-          <br/>
+          <br />
           {/*<p>
             <h3>Begin RecursiveExample</h3>
             <RecursiveExample />
           </p>*/}
 
-          <br/>
+          <br />
           <p>
             <h3>Begin SidebarExample</h3>
-            <Sidebar/>
+            <Sidebar />
           </p>
 
-          <br/>
+          <br />
           {/*<p>
             <h3>Begin AnimatedTransitionExample</h3>
             <AnimationExample className='animation'/>
           </p>*/}
-          <br/>
+          <br />
           <p>
             <h3>Begin AmbiguousExample</h3>
-            <AmbiguousExample/>
+            <AmbiguousExample />
+          </p>
+
+          <br />
+          <p>
+            <h3>Begin RouteConfigExample</h3>
+            <RouteConfigExample />
+          </p>
+
+          <br />
+          <p>
+            <h3>Begin ModalGalleryExample</h3>
+            <ModalGallery />
           </p>
 
         </div>

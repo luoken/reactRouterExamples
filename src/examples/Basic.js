@@ -1,9 +1,3 @@
-//import React from 'react'
-// import {
-//   BrowserRouter as Router,
-//   Route,
-//   Link
-// } from 'react-router-dom'
 var React = require('react');
 var Link = require('react-router-dom').Link;
 var Router = require('react-router-dom').BrowserRouter;
